@@ -1,0 +1,121 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  position: relative;
+
+  height: 50vh;
+  width: 70vh;
+
+  background-color: red;
+}
+
+.leftSide {
+  height: 100%;
+  width: 50%;
+}
+
+.leftSide img {
+  height: 100%;
+  width: 100%;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  text-align: left;
+
+  background-color: white;
+  width: 50%;
+
+  padding: 10px 30px;
+}
+
+.rightSide h1 {
+  text-align: left;
+}
+
+.rightSide h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700px;
+  font-size: 30px;
+}
+
+.rightSide p {
+  font-size: 14px;
+  font-weight: 500px;
+
+  line-height: 1.6;
+
+  color: grey;
+}
+
+.rightSide .buttonAddToCart {
+  width: 100%;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: 14px;
+
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  padding: 10px 0;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+}
+
+.buttonAddToCart svg {
+  margin-right: 5px;
+}
+
+.price {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.price h2 {
+  color: hsl(158, 36%, 37%);
+}
+
+.price span {
+  text-decoration: line-through;
+}
