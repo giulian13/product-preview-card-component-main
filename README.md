@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-with-responsive-web-design-QO060Xtkhz)
-- Live Site URL: [Live]([https://your-live-site-url.com](https://funky-product-preview-card-component.netlify.app/))
+- Live Site URL: [Live](https://funky-product-preview-card-component.netlify.app/)
 
 ## My process
 
